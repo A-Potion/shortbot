@@ -16,7 +16,7 @@ if os.path.isfile(".env") == False:
 
 load_dotenv()
 
-bitly_token = discord.Object(id=str(os.getenv("BITLY")))
+bitly_token = os.getenv("BITLY")
 
 headers = {
   'Authorization': f'Bearer {bitly_token}',
@@ -25,7 +25,7 @@ headers = {
 
 endpoint = 'https://api-ssl.bitly.com/v4/shorten'
 
-myguild = int(os.getenv("ID"))
+myguild = discord.Object(id=str(os.getenv("ID")))
 
 class Bot(discord.Client):
     def __init__(self, *, intents: discord.Intents):
