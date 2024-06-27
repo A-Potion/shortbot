@@ -8,9 +8,9 @@ from discord import app_commands
 
 if os.path.isfile(".env") == False:
     file = open(".env", "w")
-    file.write(f'TOKEN = "{input("What`s your Discord bot`s token?\n")}"\n')
-    file.write(f'BITLY = "{input("What`s your BitLy API key?\n")}"\n')
-    file.write(f'ID = {input("What`s your Discord server ID?\n")}\n')
+    file.write(f'TOKEN = "{input("What`s your Discord bot`s token? ")}"\n')
+    file.write(f'BITLY = "{input("What`s your BitLy API key? ")}"\n')
+    file.write(f'ID = {input("What`s your Discord server ID? ")}\n')
     file.close()
 
 
