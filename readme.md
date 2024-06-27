@@ -13,11 +13,11 @@ What you will need:
 - The ID of the Discord server you would like the bot to run at!
 
 ```bash
+  git clone https://github.com/A-Potion/shortbot.git
+  cd shortbot
   pip install discord.py
   pip install validators
   pip install dotenv
-  git clone https://github.com/A-Potion/shortbot.git
-  cd shortbot
   python main.py
 ```
 
