@@ -1,4 +1,4 @@
-### PyBird
+### ShortBot
 
 It's another project I've made for HackClub's arcade event. It's a Discord bot which will shorten your links with bit.ly in just one, simple command!.
 
